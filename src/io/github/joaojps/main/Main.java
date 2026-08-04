@@ -1,3 +1,5 @@
+package io.github.joaojps.main;
+
 import io.github.joaojps.funcionarios.*;
 import io.github.joaojps.menu.InterfaceMenu;
 
