@@ -28,4 +28,6 @@ public class Gerente extends Funcionario {
     public void setBonusAdd(double bonusAdd) {
         this.bonusAdd = bonusAdd;
     }
+
+
 }

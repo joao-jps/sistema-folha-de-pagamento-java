@@ -36,4 +36,6 @@ public class Vendedor extends Funcionario {
     public void setTotalVendas(int totalVendas) {
         this.totalVendas = totalVendas;
     }
+
+
 }

@@ -1,6 +1,6 @@
 package io.github.joaojps.funcionarios;
 
-public abstract class Funcionario {
+public abstract class Funcionario implements Comparable<Funcionario> {
     private String name;
     private String role;
     private int experience;
@@ -67,4 +67,8 @@ public abstract class Funcionario {
         this.baseSalary = baseSalary;
     }
 
+    @Override
+    public int compareTo(Funcionario nomeFuncionario) {
+        return this.getName().compareTo(nomeFuncionario.getName());
+    }
 }

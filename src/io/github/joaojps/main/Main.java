@@ -4,6 +4,7 @@ import io.github.joaojps.funcionarios.*;
 import io.github.joaojps.menu.InterfaceMenu;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 import java.util.Scanner;
 
@@ -104,6 +105,8 @@ public class Main {
     }
 
     private static void exibirRelatorio() {
+        Collections.sort(funcionarios);
+
         if (funcionarios.isEmpty()) {
             System.out.println("\nNenhum funcionário cadastrado ainda.");
             scanner.nextLine();
